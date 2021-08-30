@@ -35,6 +35,7 @@ body
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
+	border-radius: 50%;
 }
 .pagination ul li.numb
 {
@@ -57,5 +58,6 @@ body
 .pagination ul li.numb:hover, 
 .pagination ul li.btn-pagination:hover
 {
+	color: #fff;
 	background: #20b2aa;
 }
