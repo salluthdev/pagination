@@ -20,3 +20,8 @@ body
 	padding: 10px;
 	background: #20b2aa;
 }
+.pagination ul
+{
+	display: flex;
+	background: #fff;
+}
