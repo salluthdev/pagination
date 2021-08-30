@@ -1,7 +1,7 @@
 // selecting required element
 const element = document.querySelector(".pagination ul");
-let totalPages = 20;
-let page = 10;
+let totalPages = 10;
+let page = 1;
 
 //calling function with passing parameters and adding inside element which is ul tag
 element.innerHTML = createPagination(totalPages, page);
@@ -62,5 +62,5 @@ function createPagination(totalPages, page){
     liTag += `<li class="btn-pagination next" onclick="createPagination(totalPages, ${page + 1})"><span>Next <i class="fas fa-angle-right"></i></span></li>`;
   }
   element.innerHTML = liTag; //add li tag inside ul tag
-  return liTag; //reurn the li tag
+  return liTag; //return the li tag
 }
