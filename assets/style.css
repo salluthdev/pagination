@@ -43,7 +43,6 @@ body
 }
 .pagination ul li.btn-pagination
 {
-	background: #20b2aa;
 	padding: 0 20px;
 }
 .pagination ul li.prev
@@ -53,4 +52,10 @@ body
 .pagination ul li.next
 {
 	border-radius: 5px 25px 25px 5px;
+}
+.pagination ul li.active, 
+.pagination ul li.numb:hover, 
+.pagination ul li.btn-pagination:hover
+{
+	background: #20b2aa;
 }
