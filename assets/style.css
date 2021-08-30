@@ -25,3 +25,7 @@ body
 	display: flex;
 	background: #fff;
 }
+.pagination ul li
+{
+	list-style: none;
+}
