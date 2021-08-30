@@ -24,12 +24,17 @@ body
 {
 	display: flex;
 	background: #fff;
+	padding: 8px;
+	border-radius: 60px;
 }
 .pagination ul li
 {
 	list-style: none;
 	line-height: 45px;
-	
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
 }
 .pagination ul li.numb
 {
