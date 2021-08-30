@@ -35,12 +35,13 @@ body
 	font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
-	border-radius: 50%;
 }
 .pagination ul li.numb
 {
 	width: 45px;
 	height: 45px;
+	border-radius: 50%;
+	margin: 0 2px;
 }
 .pagination ul li.btn-pagination
 {
