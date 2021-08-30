@@ -20,16 +20,18 @@ body
 	padding: 10px;
 	background: #20b2aa;
 }
-.pagination ul{
-  display: flex;
-  flex-wrap: wrap;
-  background: #fff;
-  padding: 8px;
-  border-radius: 50px;
-  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+.pagination ul
+{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	background: #fff;
+ 	padding: 8px;
+	border-radius: 50px;
+ 	box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
 }
-.pagination ul li{
-  color: #20B2AA;
+.pagination ul li
+{
+	color: #20B2AA;
   list-style: none;
   line-height: 45px;
   text-align: center;
@@ -39,7 +41,8 @@ body
   user-select: none;
   transition: all 0.3s ease;
 }
-.pagination ul li.numb{
+.pagination ul li.numb
+{
   list-style: none;
   height: 45px;
   width: 45px;
@@ -47,17 +50,21 @@ body
   line-height: 45px;
   border-radius: 50%;
 }
-.pagination ul li.numb.first{
+.pagination ul li.numb.first
+{
   margin: 0px 3px 0 -5px;
 }
-.pagination ul li.numb.last{
+.pagination ul li.numb.last
+{
   margin: 0px -5px 0 3px;
 }
-.pagination ul li.dots{
+.pagination ul li.dots
+{
   font-size: 22px;
   cursor: default;
 }
-.pagination ul li.btn{
+.pagination ul li.btn
+{
   padding: 0 20px;
   border-radius: 50px;
 }
