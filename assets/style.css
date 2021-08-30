@@ -28,4 +28,11 @@ body
 .pagination ul li
 {
 	list-style: none;
+	line-height: 45px;
+	
+}
+.pagination ul li.numb
+{
+	width: 45px;
+	height: 45px;
 }
