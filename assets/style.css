@@ -41,3 +41,8 @@ body
 	width: 45px;
 	height: 45px;
 }
+.pagination ul li.btn-pagination
+{
+	background: #20b2aa;
+	padding: 0 20px;
+}
