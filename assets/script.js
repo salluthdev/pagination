@@ -12,7 +12,7 @@ function createPagination(totalPages, page){
   let afterPage = page + 1;
 
   if(page > 1){ //show the next button if the page value is greater than 1
-    liTag += `<li class="btn prev" onclick="createPagination(totalPages, ${page - 1})"><span><i class="fas fa-angle-left"></i> Prev</span></li>`;
+    liTag += `<li class="btn-pagination prev" onclick="createPagination(totalPages, ${page - 1})"><span><i class="fas fa-angle-left"></i> Prev</span></li>`;
   }
   
   if(page > 2){ //if page value is less than 2 then add 1 after the previous button
@@ -59,7 +59,7 @@ function createPagination(totalPages, page){
   }
 
   if (page < totalPages) { //show the next button if the page value is less than totalPage(20)
-    liTag += `<li class="btn next" onclick="createPagination(totalPages, ${page + 1})"><span>Next <i class="fas fa-angle-right"></i></span></li>`;
+    liTag += `<li class="btn-pagination next" onclick="createPagination(totalPages, ${page + 1})"><span>Next <i class="fas fa-angle-right"></i></span></li>`;
   }
   element.innerHTML = liTag; //add li tag inside ul tag
   return liTag; //reurn the li tag
